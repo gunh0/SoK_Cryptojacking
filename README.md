@@ -3,12 +3,33 @@
 ## Table of Contents
 
 - Reference
+  - CMTracker
+
+<br/>
 
 <br/>
 
 ### Reference
 
 -----
+
+### CMTracker Project
+
+> https://github.com/deluser8/cmtracker
+
+CMTracker began as a research project at the Fudan University, with the goal of understanding cryptojacking webpages in the wild.
+
+Our corresponding paper was accepted by ACM CCS 2018:
+
+How You Get Shot in the Back: A Systematical Study about Cryptojacking in the Real World. Geng Hong, Zhemin Yang, Sen Yang, Lei Zhang, Yuhong Nan, Zhibo Zhang, Min Yang, Yuan Zhang, Zhiyun Qian, Haixin Duan. In Proceedings of the 25th ACM Conference on Computer and Communications Security, CCS'18, Toronto, Canada, October 15-19, 2018 (to appear). [pdf](https://yangzhemin.github.io/papers/cmtracker-ccs2018.pdf)
+
+We thank the many contributors to this project and our paper, including Zhiyun Qian in uc riverside, Haixin Duan in Tsinghua University, and other collaborators.
+
+We welcome any question about this project, please contact Geng Hong or [Zhemin Yang](https://yangzhemin.github.io/)
+
+Edited by Zhemin Yang, Sep 21, 2018
+
+<br/>
 
 #### (2018) How You Get Shot in the Back: A Systematical Study about Cryptojacking in the Real World - CCS'18
 
@@ -27,13 +48,5 @@
 &nbsp;&nbsp;이 논문에서는 크립토재킹에 대한 심층 연구를 위한 첫 번째 단계를 밟는다. 크립토재킹 스크립트의 고유한 특성을 활용하여 Cryptocurrency Mining 스크립트 및 관련 도메인을 자동으로 추적하는 두 개의 런타임 프로파일러가있는 행위기반 탐지기인 CMTracker를 구축했다. 여기서의 접근 방식은 Alexa 목록의 상위 10 만 개 중 868 개를 포함하여 853,936 개의 인기 웹 페이지에서 2,770개의 고유 한 크립토 재킹 샘플을 성공적으로 발견했다. 이러한 샘플을 활용하여 크립토재킹 공격 영향, 배포 메커니즘, 난독화 및 탐지 회피 시도를 포함하여 보다 포괄적인 구조를 파악한다. 예를 들어, 다양한 조직들은 고유한 지갑 ID를 기반으로 하는 크립토재킹으로 이익을 취한다. 또한 레이더 아래에 머물기 위해 며칠 단위로 공격 도메인 (fastflux)을 자주 업데이트한다. 많은 공격자들은 CPU 사용량 제한, 코드 난독화 등의 회피 기술도 적용한다.
 
 <br/>
-
-#### Introduction
-
-**Measurement and Findings**
-
-**Contributions**
-
-**Roadmap**
 
 -----
