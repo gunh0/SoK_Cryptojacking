@@ -2,11 +2,40 @@
 
 ## Table of Contents
 
+- Tor Browser automation with Selenium
 - ADB for Android (Windows)
 - Open-Source Cryptojacking Malware Detection
 - Reference Paper
   - CMTracker Project (2018)
   - SoK: Cryptojacking Malware
+
+<br/>
+
+<br/>
+
+## Tor Browser automation with Selenium
+
+### # tbselenium
+
+> https://pypi.org/project/tbselenium/
+
+- A Python library to automate Tor Browser with Selenium.
+
+<br/>
+
+---
+
+<br/>
+
+### # geckodriver
+
+> https://github.com/mozilla/geckodriver
+
+Proxy for using W3C [WebDriver](https://developer.mozilla.org/en-US/docs/Web/WebDriver) compatible clients to interact with Gecko-based browsers.
+
+This program provides the HTTP API described by the [WebDriver protocol](https://w3c.github.io/webdriver/#protocol) to communicate with Gecko browsers, such as Firefox.
+
+It translates calls into the [Marionette remote protocol](https://firefox-source-docs.mozilla.org/testing/marionette/) by acting as a proxy between the local- and remote ends.
 
 <br/>
 
@@ -74,6 +103,8 @@ Edited by Zhemin Yang, Sep 21, 2018
 <br/>
 
 -----
+
+<br/>
 
 ### # SoK: Cryptojacking Malware
 
