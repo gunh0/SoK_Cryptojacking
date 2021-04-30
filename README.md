@@ -3,6 +3,9 @@
 ## Table of Contents
 
 - Tor Browser automation with Selenium
+  - tbselenium : tor-browser-selenium 
+  - geckodriver
+  - DARKWEB-CRAWLER
 - ADB for Android (Windows)
 - Open-Source Cryptojacking Malware Detection
 - Reference Paper
@@ -36,6 +39,21 @@ Proxy for using W3C [WebDriver](https://developer.mozilla.org/en-US/docs/Web/Web
 This program provides the HTTP API described by the [WebDriver protocol](https://w3c.github.io/webdriver/#protocol) to communicate with Gecko browsers, such as Firefox.
 
 It translates calls into the [Marionette remote protocol](https://firefox-source-docs.mozilla.org/testing/marionette/) by acting as a proxy between the local- and remote ends.
+
+<br/>
+
+---
+
+<br/>
+
+### # DARKWEB-CRAWLER
+
+> https://github.com/AshwinAmbal/DarkWeb-Crawling-Indexing
+
+A basic scrapper made in python with BeautifulSoup and Tor support to
+
+- Scrape Onion and normal links.
+- Save the output in html format in Output folder.
 
 <br/>
 
