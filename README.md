@@ -40,6 +40,11 @@ This program provides the HTTP API described by the [WebDriver protocol](https:/
 
 It translates calls into the [Marionette remote protocol](https://firefox-source-docs.mozilla.org/testing/marionette/) by acting as a proxy between the local- and remote ends.
 
+<p align="center">
+    <img src="README.assets/geckodriver1.png"/>
+    <div align="center">geckodriver & Marionette remote protocol</div>
+</p>
+
 <br/>
 
 ---
