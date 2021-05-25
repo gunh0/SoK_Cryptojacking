@@ -24,7 +24,7 @@ if __name__=='__main__':
 
 
 GET_DOMAIN = get_domain_name(BASE_URL)
-FOLDER_NAME = 'hacking/' + regex
+FOLDER_NAME = 'datasets/' + regex
 data_crawled = FOLDER_NAME + '/crawled.txt'
 data_in_queue = FOLDER_NAME + '/queue.txt'
 thread_count = 50
