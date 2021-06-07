@@ -6,6 +6,9 @@ path = os.path.dirname(os.path.abspath(__file__))
 path += '/test.html'
 # print(path)
 
+dir_path = os.path.dirname(os.path.abspath(__file__))
+print(dir_path)
+
 with open(path, encoding='UTF8') as fp:
     soup = BeautifulSoup(fp)
 
