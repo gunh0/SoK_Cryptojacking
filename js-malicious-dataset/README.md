@@ -4,10 +4,14 @@
 
 This repository contains a list of pseudo-sorted malicious JavaScripts collected from time to time.
 
+<br/>
+
 ## Current dataset size (January 2017):
 - 1156 HTML files
 - 1357 JS files
 - 33 skipped files
+
+<br/>
 
 ## Contributions are very welcome
 
@@ -19,3 +23,4 @@ In order to automatically process the samples I'd like the contributors to keep 
 * If you know the date when the sample appeared please either add the date in the filename or (if you have many samples for the same period) submit them in a folder named after that period (following the format `YYYYMMDD`)
 * If the sample is an EK landing page either add `lp` or `landingpage` in the sample filename
 * If the sample is only the injected JavaScript (e.g. as the first step in a EK chain), please add the `injected` keyword to it
+
