@@ -1,7 +1,7 @@
 import csv
-import magic
 import os
 
+from urllib import parse
 from bs4 import BeautifulSoup
 
 f = open('result.csv', 'w', encoding='utf-8', newline='')
@@ -20,27 +20,21 @@ def check_category(full_path):
 
 
 def write_csv(full_path):
-    # f = open('result.csv', 'w', encoding='utf-8', newline='')
-    # wr = csv.writer(f)
-    # wr.writerow(["category", "target_name", "content"])
+    #
 
     try:
         splited_path = check_category(full_path)
         open_file = open(full_path, 'rb').read()
-        # m = magic.Magic(mime_encoding=True)
-        # encoding = m.from_buffer(open_file)
         soup = BeautifulSoup(open_file)
 
         scripts = soup.find_all('script')
         for i in range(0, len(scripts)):
             # print('\n\n==========', i, ':', full_path,
             #       '==========\n\n', str(scripts[i]).rstrip('\n'))
-            content = str(scripts[i]).rstrip('\n')
-            content.replace("\n", "")
+            content = parse.urlparse(str(scripts[i]))
             wr.writerow([splited_path[0], splited_path[1], content])
     except:
         pass
-    f.close
 
 
 def search_files(dirname):
@@ -67,6 +61,5 @@ print("[*] pwd check,", path, os.path.isdir(path))
 target_path = '/target'
 path += target_path
 search_files(path)
-
 
 f.close
